@@ -1,0 +1,19 @@
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+  background: #f9f9f9;
+}
+
+h1 {
+  color: #333;
+}
+
+.uploader label {
+  display: block;
+  margin: 1rem 0 0.5rem;
+}
+
+img, video {
+  max-width: 100%;
+  margin-top: 0.5rem;
+}
