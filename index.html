@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Media Preview Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Unggah & Tampilkan Media</h1>
+
+  <div class="uploader">
+    <label>Foto: <input type="file" accept="image/*" onchange="previewImage(event)"></label>
+    <img id="imagePreview" alt="Preview Gambar" style="display: none;" />
+    
+    <label>Audio: <input type="file" accept="audio/*" onchange="previewAudio(event)"></label>
+    <audio id="audioPreview" controls style="display: none;"></audio>
+
+    <label>Video: <input type="file" accept="video/*" onchange="previewVideo(event)"></label>
+    <video id="videoPreview" controls style="display: none;" width="320"></video>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
